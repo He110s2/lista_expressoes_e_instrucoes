@@ -1,0 +1,11 @@
+pi = 3.14159
+
+raio = int(input("Digite o raio do círculo (valor inteiro): "))
+
+diametro = 2 * raio
+circunferencia = 2 * pi * raio
+area = pi * (raio ** 2)
+
+print(f"Diâmetro: {diametro}")
+print(f"Circunferência: {circunferencia:.5f}")
+print(f"Área: {area:.5f}")
