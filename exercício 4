@@ -1,0 +1,19 @@
+populacao = 8.09  
+taxa = 0.89 
+
+print("População mundial estimada nos próximos 5 anos:")
+
+populacao *= 1 + (taxa / 100)
+print(f"Ano 1: {populacao:.2f} bilhões")
+
+populacao *= 1 + (taxa / 100)
+print(f"Ano 2: {populacao:.2f} bilhões")
+
+populacao *= 1 + (taxa / 100)
+print(f"Ano 3: {populacao:.2f} bilhões")
+
+populacao *= 1 + (taxa / 100)
+print(f"Ano 4: {populacao:.2f} bilhões")
+
+populacao *= 1 + (taxa / 100)
+print(f"Ano 5: {populacao:.2f} bilhões")
